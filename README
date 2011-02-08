@@ -1,0 +1,7 @@
+Here is how you use it:
+
+import picasaAPI
+filename = "myawesomepic.png"
+photo = picasaAPI.upload(filename,
+                         album="My awesome album",
+                         comment="My valuable comments")
